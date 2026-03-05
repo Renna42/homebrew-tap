@@ -9,7 +9,5 @@ cask "launchnext" do
 
   app "LaunchNext.app"
 
-  zap trash: [
-    "~/Library/Application Support/LaunchNext",
-  ]
+  zap trash: "~/Library/Application Support/LaunchNext"
 end
