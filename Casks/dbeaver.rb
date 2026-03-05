@@ -11,7 +11,7 @@ cask "dbeaver" do
       verified: "github.com/dbeaver/dbeaver/"
   name "DBeaver"
   desc "Free Open-Source Database Management Tool"
-  homepage "https://dbeaver.io"
+  homepage "https://dbeaver.io/"
 
   app "DBeaver.app"
 
