@@ -8,10 +8,7 @@ on:
 
 jobs:
   test-bot:
-    strategy:
-      matrix:
-        os: [ ubuntu-22.04, macos-15-intel, macos-26 ]
-    runs-on: ${{ matrix.os }}
+    runs-on: macos-26
     permissions:
       actions: read
       checks: read
