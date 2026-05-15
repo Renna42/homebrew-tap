@@ -7,6 +7,8 @@ cask "launchnext" do
   desc "Bring Launchpad back in MacOS26+, highly customizable, powerful, free"
   homepage "https://github.com/RoversX/LaunchNext/"
 
+  depends_on :macos
+
   app "LaunchNext.app"
 
   zap trash: [

@@ -16,7 +16,7 @@ cask "arch1t3cht-aegisub" do
   end
 
   conflicts_with cask: "aegisub"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Aegisub.app"
 

@@ -7,6 +7,8 @@ cask "ayugram" do
   desc "Telegram client with ghost mode and message history"
   homepage "https://github.com/AyuGram/AyuGramDesktop"
 
+  depends_on :macos
+
   app "AyuGram.app"
 
   zap trash: [
