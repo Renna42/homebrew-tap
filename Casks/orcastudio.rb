@@ -1,9 +1,9 @@
 cask "orcastudio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "02.07.01.57,p4"
-  sha256 arm:   "1133b96f619bd6dd0a231dc86018325213e2e33c26722d18f60042e0dd0053f2",
-         intel: "a125f0aad6fa33d401a760ade5d1496267e892c500bfc4b59f24c1b6596813ce"
+  version "02.07.01.57,p5"
+  sha256 arm:   "789191cd8ae3ea071e0367008218520a63528a91cce7a7babc5c0cc56b1dabd6",
+         intel: "0c105a90fa39cfed7a705f92aba7643ec67d4474bcc1e5f4618d0aa65a4f7d2d"
 
   url "https://github.com/jarczakpawel/OrcaStudio/releases/download/v#{version.csv.first}-#{version.csv.second}/BambuStudio-OrcaSlicer_Mac_#{arch}_V#{version.csv.first}.dmg"
   name "OrcaStudio"
