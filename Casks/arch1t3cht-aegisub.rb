@@ -10,11 +10,6 @@ cask "arch1t3cht-aegisub" do
   desc "Cross-platform advanced subtitle editor, with new feature branches"
   homepage "https://github.com/arch1t3cht/Aegisub/"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   conflicts_with cask: "aegisub"
   depends_on macos: :ventura
 
