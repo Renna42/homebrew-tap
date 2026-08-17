@@ -1,19 +1,18 @@
 cask "orcastudio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "02.07.01.57,p5"
-  sha256 arm:   "789191cd8ae3ea071e0367008218520a63528a91cce7a7babc5c0cc56b1dabd6",
-         intel: "0c105a90fa39cfed7a705f92aba7643ec67d4474bcc1e5f4618d0aa65a4f7d2d"
+  version "02.08.01.55,p3"
+  sha256 arm:   "bf29502f5f2be58bc7a34ecf034f4617257b6121b261279851c38813c372d1cd",
+         intel: "d323b2882664910b5e0f5bb3f5cd8da0b1edb695b83b7dfbb681a77b1d5195cd"
 
-  url "https://github.com/jarczakpawel/OrcaStudio/releases/download/v#{version.csv.first}-#{version.csv.second}/BambuStudio-OrcaSlicer_Mac_#{arch}_V#{version.csv.first}.dmg"
+  url "https://github.com/jarczakpawel/OrcaStudio/releases/download/v#{version.csv.first}-#{version.csv.second}/OrcaStudio_Mac_#{arch}_V#{version.csv.first}-#{version.csv.second}.dmg"
   name "OrcaStudio"
   desc "Fork of Bambu Studio with OrcaSlicer changes applied"
   homepage "https://github.com/jarczakpawel/OrcaStudio"
 
-  conflicts_with cask: "bambu-studio"
   depends_on macos: :big_sur
 
-  app "BambuStudio.app"
+  app "OrcaStudio.app"
 
   uninstall script: {
     executable: "/bin/bash",
