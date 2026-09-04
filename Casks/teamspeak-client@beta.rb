@@ -5,8 +5,7 @@ cask "teamspeak-client@beta" do
   sha256 arm:   "7107fe5f524c2c8c280af7fb15fefbe41ecfb5ca1b6d1fe949435ed5414e7f27",
          intel: "cdc03c43bd13c52ae97c2716f3ce9fea0325cb3e458a9955f2b6b12eaccaf54d"
 
-  url "https://files.teamspeak-services.com/pre_releases/client/#{version}/teamspeak-client-#{arch}.dmg",
-      verified: "files.teamspeak-services.com/"
+  url "https://files.teamspeak-services.com/pre_releases/client/#{version}/teamspeak-client-#{arch}.dmg"
   name "TeamSpeak Beta"
   desc "Voice communication client"
   homepage "https://www.teamspeak.com/"
