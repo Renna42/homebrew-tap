@@ -10,7 +10,7 @@ cask "orcastudio" do
   desc "Fork of Bambu Studio with OrcaSlicer changes applied"
   homepage "https://github.com/jarczakpawel/OrcaStudio"
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "OrcaStudio.app"
 
