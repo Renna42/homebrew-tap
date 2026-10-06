@@ -1,9 +1,9 @@
 cask "orcastudio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "02.08.01.55,p3"
-  sha256 arm:   "bf29502f5f2be58bc7a34ecf034f4617257b6121b261279851c38813c372d1cd",
-         intel: "d323b2882664910b5e0f5bb3f5cd8da0b1edb695b83b7dfbb681a77b1d5195cd"
+  version "02.08.01.55,p6"
+  sha256 arm:   "a76a06e5afdd5123f37681d0b1ddfb7b0bebe872bbb129efc6e4bd896a986627",
+         intel: "cf51a1eea5000c1442ba5cdc90ec4015de99e810f5f4da1baf2dba623224bb47"
 
   url "https://github.com/jarczakpawel/OrcaStudio/releases/download/v#{version.csv.first}-#{version.csv.second}/OrcaStudio_Mac_#{arch}_V#{version.csv.first}-#{version.csv.second}.dmg"
   name "OrcaStudio"
